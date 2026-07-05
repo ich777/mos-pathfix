@@ -3,6 +3,7 @@ grep -RlZ "/ich777/" /usr/local/bin 2>/dev/null | xargs -0 -r sed -i 's#/ich777/
 grep -RlZ "/ich777/" /etc/init.d 2>/dev/null | xargs -0 -r sed -i 's#/ich777/#/mos-nas/#g'
 grep -RlZ "/ich777/" /boot/optional/plugins/*/*/functions 2>/dev/null | xargs -0 -r sed -i 's#/ich777/#/mos-nas/#g'
 
-/usr/local/bin/mos-api_cli plugins:update
+/usr/local/bin/mos-api_cli plugins:update 2>/dev/null
+/usr/local/bin/notify -t "Plugins" -m "Update check and update from plugins finished!" -p "normal"
 
-rm -rf /var/mos/mos-update
+rm -rf /var/mos/mos-update 2>/dev/null
