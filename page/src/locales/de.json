@@ -1,0 +1,10 @@
+{
+  "plugin_pathfix": {
+    "title": "MOS Organization Path Fix",
+    "description": "Migriert alte /ich777/-Pfade zu /mos-nas/ in installierten Plugin-Skripten, Init-Skripten und Plugin-functions-Dateien und aktualisiert zusätzlich deine Plugins auf die neueste Version.",
+    "run": "Jetzt ausführen",
+    "running": "Wird ausgeführt...",
+    "success": "Erfolgreich abgeschlossen.",
+    "error": "Ausführung fehlgeschlagen."
+  }
+}

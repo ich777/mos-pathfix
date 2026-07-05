@@ -1,0 +1,14 @@
+#!/bin/bash
+
+install() {
+  chmod +x /usr/bin/plugins/pathfix 2>/dev/null
+  /usr/bin/plugins/pathfix
+}
+
+uninstall() {
+  rm -f /usr/bin/plugins/pathfix
+}
+
+mos_start() {
+  /usr/bin/plugins/pathfix
+}

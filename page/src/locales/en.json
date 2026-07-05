@@ -1,0 +1,10 @@
+{
+  "plugin_pathfix": {
+    "title": "MOS Organization Path Fix",
+    "description": "Migrates legacy /ich777/ paths to /mos-nas/ in installed plugin scripts, init scripts and plugin functions files, and also updates your plugins to the latest version.",
+    "run": "Run now",
+    "running": "Running...",
+    "success": "Completed successfully.",
+    "error": "Execution failed."
+  }
+}
